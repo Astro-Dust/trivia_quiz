@@ -11,15 +11,16 @@ q1 = [
 
     inquirer.Checkbox(
         "question_1",
-        message="It is often said that humans only use 10% of their brains. Is this true or false?",
-        choices=["True", "False"]
+        message="Is it true that humans only use 10% of their brains?",
+        choices=["True", "False"],
+        default=["True"]
     )
 ]
 
 q2 = [
     inquirer.Checkbox(
         "question_2",
-        message="It's commonly believed that the character 'Monopoly Man' in the board game Monopoly wears a monocle or binoculars. True or false?",
+        message="Is it true that the character 'Monopoly Man' in the board game Monopoly wears a monocle or binoculars?",
         choices=["True", "False"]
     )
 ]
@@ -27,7 +28,7 @@ q2 = [
 q3 = [
 	inquirer.Checkbox(
 		"question_3",
-		message="Many people remember Pikachu, the iconic Pokémon, having a black tip on its tail. However, if you look at Pikachu's official artwork, you'll find that its tail is entirely yellow without any black tip. True or false?",
+		message="Does Pikachu have a black tip on its tail?",
 		choices=["True", "False"]
 	)
 ]
